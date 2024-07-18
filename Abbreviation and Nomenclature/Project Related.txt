@@ -1,0 +1,39 @@
+Symbols
+--> : Represents an association or interaction between components in PlantUML diagrams.
+: : Denotes actions or methods in sequence and activity diagrams.
+{} : Used to define blocks or attributes in classes and objects.
+
+Abbreviations
+id : Identifier
+km : Kilometers
+min : Minutes
+spm : Steps per minute
+m : Meters	
+
+Nomenclature
+HTML and CSS:
+User: Represents the person interacting with the application.
+Map: The map component displaying the workouts.
+Form: The form component where users input their workout details.
+RunningWorkout: Object representing a running workout.
+CyclingWorkout: Object representing a cycling workout.
+distance: The distance covered in a workout.
+duration: The duration of the workout.
+cadence: The number of steps per minute in a running workout.
+elevation: The elevation gain in a cycling workout.
+zoom: The zoom level of the map.
+center: The center coordinates of the map.
+
+JavaScript:
+viewMap(): Method to display the map.
+fillForm(): Method for the user to fill out the workout form.
+submit(): Method to submit the form.
+createRunningWorkout(): Method to create a running workout object.
+createCyclingWorkout(): Method to create a cycling workout object.
+updateMap(): Method to update the map with new workout data.
+displayWorkout(): Method to display the workout on the map.
+
+PlantUML:
+actor: Represents an external user or system interacting with the application.
+entity: Represents objects or entities in the system.
+rectangle: Used to group related components.
